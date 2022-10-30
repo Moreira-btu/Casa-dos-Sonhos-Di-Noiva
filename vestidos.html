@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestidos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-02.css">
+</head>
+<body>
+    <header>
+        <a title="banner" href="index.html" id="Logo"><img id="logo-01" src="img/banner.png" alt=""></a>
+        <nav id="nav">
+           <button id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false"aria-label="Abrir Menu" >Menu<span id="hamburger"></span></button>
+           
+           <ul id="menu"  roles="lista">
+               <li><a href="index.html">Página Principal</a></li>
+               <li><a href="vestidos-noiva.html">Vestidos de Noivas</a></li>
+               <li><a href="vestidos.html">Vestidos </a></li>
+               <li><a href="cerimonial.html">Cerimonial</a></li>
+               <li><a href="contato.html">Contato</a></li>
+   
+           </ul>
+        </nav>
+   
+       </header>
+   
+       <script>
+   const btnMobile =document.getElementById('btn-mobile')
+   function toggleMenu() {
+       
+       const nav =document.getElementById('nav')
+       nav.classList.toggle('active')
+   }
+   
+   btnMobile.addEventListener('click',toggleMenu)
+   
+     </script>
+     <div class="galeria">
+        <ul>
+            <li><a title="Barbara Mello" href="barbara-mello.html"><img src="img/barbara-mello.jpg" alt="">Barbara Mello</a></li>
+            <li><a title="Novidades" href="novidades.html"><img title="Novidades" src="img/Novidades-01.jpg"> Novidades</a></li>
+            <li><a title="Bolsas" href="Bolsas"><img src="img/bolsa-01.jpg" alt=""> Bolsas</a></li>
+        </ul>
+
+     </div>
+       
+     <footer>
+        <a href="https://github.com/Moreira-btu">&COPY;by Alex Moreira <br>
+        editado 30/10/2022 <br>
+        <img src="img/icone-github.png" alt=""></a>
+    </footer>
+</body>
+</html>

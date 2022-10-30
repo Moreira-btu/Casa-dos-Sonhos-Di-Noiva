@@ -2,11 +2,14 @@
     font-family:'Deuxieme' ;
     src: url('/Fontes/Deuxieme_Rang_Original.otf');
 }
-body{
+body {
     font-family: 'Deuxieme';
     text-align: center;
     color: #AB953B;
     background-color: rgb(235, 204, 204);
+}
+a{
+    font-family: 'Deuxieme' ;
 }
 #banner{
     max-width: 80vw;
@@ -31,7 +34,7 @@ ul {
 
 }
 a {
-    color: black;
+    color: #AB953B;
     text-decoration: none;
     font-family: sans-serif;
 
@@ -59,9 +62,12 @@ header {
     display: flex;
     list-style: none;
     gap: 5rem;
+    font-family: 'Deuxieme';
 
 }
 #menu a {
+    font-family: 'Deuxieme';
+    font-size: 2em;
     display: block;
     padding: .5rem;
 }
@@ -73,7 +79,7 @@ header {
         display: block;
     }
     #menu { 
-         
+        font-family: 'Deuxieme';
          display: block;
          position: absolute;
          width: 100%; 
@@ -94,6 +100,7 @@ header {
     visibility: visible;
     overflow-y: auto;
     
+    
   
 
 }
@@ -104,9 +111,11 @@ header {
 
 }
 #btn-mobile {
+    font-family: 'Deuxieme';
     display: flex;
+    color: #AB953B;
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
     border: none;
     background: none;
     cursor: pointer;
