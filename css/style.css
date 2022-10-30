@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Deuxieme' ;
-    src: url('./Fontes/Deuxieme_Rang_Original.otf');
+    src: url('../Fontes/Deuxieme_Rang_Original.otf');
 }
 body{
     font-family: 'Deuxieme';
